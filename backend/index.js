@@ -1,15 +1,16 @@
 require('dotenv').config();
+const cors = require('cors');
 const express = require('express');
 const router = require('./routes/index');
 const app = express();
 const mongoConfig = require('./config/mongoConfig');
 
-// Class 97 || 00:30:00
+// Class 100 || Completed
 
-// mongodb+srv://merniandb:merniandbpass@cluster0.l4verf8.mongodb.net/mernian?retryWrites=true&w=majority&appName=Cluster0
+app.use(express.json());
 
 mongoConfig();
-
+app.use(cors());
 app.use('/', router);
 
 const port = process.env.PORT || 8080;

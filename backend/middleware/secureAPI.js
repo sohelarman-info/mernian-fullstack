@@ -3,6 +3,7 @@ let secureAPI = (req, res, next) => {
   if (req.headers.authorization == '3MwAN7UdsIAb9PM') {
     next();
   } else {
+    res.status(401);
     res.send({ error: 'Invalid URL' });
   }
 };

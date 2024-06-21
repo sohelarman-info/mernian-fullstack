@@ -1,0 +1,258 @@
+body {
+  background-color: #e8ecf1;
+}
+
+.task-list-body {
+  padding: 70px;
+}
+
+.task-list-components {
+  background-color: #fff;
+  width: 640px;
+  border-radius: 30px;
+  padding: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profile-area {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.profile-name h2 {
+  color: #444444;
+  font-size: 12px;
+  line-height: 0;
+  font-family: var(--title-font);
+}
+
+.profile-name {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.task-list-top-icon-margin {
+  margin-top: 40px;
+}
+
+.task-list-top-icon {
+  background-color: #e1a0ff;
+  width: 77px;
+  height: 77px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 25px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-title {
+  text-align: center;
+}
+
+.top-title h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 5px;
+  color: #444444 !important;
+  font-family: var(--title-font);
+}
+
+.top-title p {
+  font-size: 14px;
+  line-height: 5px;
+  color: #bebebe !important;
+  font-family: var(--text-font);
+  margin-bottom: 20px !important;
+}
+
+.top-line {
+  margin: 0 auto;
+  width: 99px;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin-bottom: 25px;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 50px;
+}
+
+.ant-form-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.ant-form-item-explain-error {
+  font-size: 8px;
+}
+
+.input-label {
+  font-family: var(--text-font);
+  color: #bebebe;
+  font-size: 12px;
+  font-weight: var(--regular);
+  line-height: 30px;
+}
+
+.item-input-box .ant-input {
+  width: 183px;
+  height: 41px;
+  border-radius: 6px;
+  padding-block: 0;
+  border: 1px solid #d9d9d9;
+  font-family: var(--text-font);
+}
+
+.des-input-box .ant-input {
+  width: 109px;
+  height: 41px;
+  border-radius: 6px;
+  padding-block: 0;
+  border: 1px solid #d9d9d9;
+  font-family: var(--text-font);
+}
+.dot-missing {
+  color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-kghr11).ant-form {
+  line-height: 0;
+}
+
+.submit-input-box {
+  width: 69px;
+  height: 41px;
+  border-radius: 6px;
+  padding-block: 0;
+  border: 1px solid #e1a0ff;
+  background-color: #e1a0ff;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--text-font);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-input-box:hover {
+  border: 1px solid #e1a0ff !important;
+  background-color: #e1a0ff !important;
+  color: #fff;
+}
+
+.non-active-area {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.non-single-item {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.non-add-item {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e1a0ff;
+  cursor: pointer;
+}
+
+.non-single-content-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.non-single-content {
+  margin-left: 10px;
+  width: 330px;
+}
+
+.non-single-content h2 {
+  font-family: var(--text-font);
+  color: #444444;
+  font-size: 16px;
+  font-weight: var(--medium);
+  line-height: 5px;
+}
+
+.non-single-content p {
+  font-family: var(--text-font);
+  color: #bebebe;
+  font-weight: var(--regular);
+  font-size: 14px;
+  line-height: 5px;
+}
+
+.delete-icon {
+  color: #ff9999;
+  font-size: 32px;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.non-bottom-margin {
+  margin-top: 50px;
+}
+
+.active-title {
+  padding: 5px;
+}
+
+.active-title h2 {
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 30px;
+  font-weight: var(--regular);
+  color: #444444;
+}
+
+.active-add-item {
+  width: 27px;
+  height: 27px;
+  border: 0px solid #c9c9c9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #08cc27;
+  cursor: pointer;
+  font-size: 28px;
+}

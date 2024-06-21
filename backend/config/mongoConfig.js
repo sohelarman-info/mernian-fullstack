@@ -9,3 +9,9 @@ let mongoConfig = () => {
 };
 
 module.exports = mongoConfig;
+
+// Note: How to connect the Database
+// Go to "Database"
+// Create Database
+// Database Access
+// Add new database user
